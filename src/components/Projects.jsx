@@ -7,22 +7,16 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    title: "ShieldAPI",
-    meta: "Java · Spring Boot · JWT · MongoDB",
-    desc: "API Security & Threat Monitoring — OWASP Top 10 coverage via servlet filter chains.",
-    link: "https://github.com/moneyutkarsh/ShieldAPI"
+    title: "TaskFlow",
+    meta: "ReactJS · NodeJs · ExpressJS · MongoDB · Render · Vercel",
+    desc: "Full-stack Kanban-based task management platform with JWT auth, drag-and-drop workflows, and TanStack Query for real-time sync.",
+    link: "https://task-flow-eta-wheat.vercel.app/auth"
   },
   {
-    title: "Evenity",
-    meta: "React · Node.js · MongoDB · Framer Motion",
-    desc: "Event Discovery Platform — compound indexes + server-side TTL cache for third-party feeds.",
-    link: "https://github.com/moneyutkarsh/Evenity"
-  },
-  {
-    title: "HealTrip",
-    meta: "React · Node.js · FastAPI · MongoDB Atlas · Razorpay",
-    desc: "Medical Tourism Platform — hard service boundary split with recommendation engine in <200ms.",
-    link: "https://github.com/Naman-1508/HealTrip"
+    title: "Expense Tracker",
+    meta: "ReactJS · JavaScript · React Hooks · Tailwind CSS · Git",
+    desc: "Responsive expense tracking web app with Chart.js visualization, real-time balance monitoring, and persistent local storage.",
+    link: "https://aryanbhardwaj19.github.io/Expense_Tracker/"
   },
 ];
 

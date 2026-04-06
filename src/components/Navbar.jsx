@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="navbar" ref={navRef}>
       <div className="nav-logo">
-        UD<span>.</span>
+        AB<span>.</span>
       </div>
       <ul className="nav-links">
         <li><a href="#about">About</a></li>

@@ -38,7 +38,7 @@ const Hero = () => {
         </Suspense>
       </div>
 
-      <div className="hero-logo">UD.</div>
+      <div className="hero-logo">AB.</div>
 
       <div className="hero-nav">
         <a href="#about" className="hero-nav-link">About</a>
@@ -47,23 +47,23 @@ const Hero = () => {
       </div>
 
       <div className="hero-content">
-        <span className="hero-tag" ref={tagRef}>Utkarsh Dubey </span>
+        <span className="hero-tag" ref={tagRef}>Aryan Bhardwaj </span>
 
         <h1 className="hero-title" ref={titleRef}>
           <span className="word-line">
             <span className="word-inner">Engineering</span>
           </span>
           <span className="word-line">
-            <span className="word-inner hero-accent">Lasting</span>
+            <span className="word-inner hero-accent">Systems That</span>
           </span>
           <span className="word-line">
-            <span className="word-inner">Impact</span>
+            <span className="word-inner">Think & Scale</span>
           </span>
         </h1>
 
         <p className="hero-sub" ref={subRef}>
-          CS Undergrad at MSRIT · Samsung R&D Research Intern · <br />
-          Specialized in backend security, API design & full-stack systems.
+          EEE Undergrad at RIT Bangalore · Samsung Research Intern · <br />
+          Specialized in Backend Development, Machine Learning & modern web systems.
         </p>
       </div>
 

@@ -50,16 +50,16 @@ const Loader = () => {
     <div className="loader-wrapper">
       <div className="loader-content flex flex-col items-center">
         
-        {/* UD Logo */}
+        {/* AB Logo */}
         <div className="loader-logo-wrap">
-          <span className="loader-logo-text">UD<span className="loader-logo-dot">.</span></span>
+          <span className="loader-logo-text">AB<span className="loader-logo-dot">.</span></span>
         </div>
 
         {/* Loading Percentage */}
         <div className="loader-percent font-black">{count}</div>
         
         {/* Label */}
-        <div className="loader-label">Portfolio Upgrading</div>
+        <div className="loader-label">Portfolio Loading</div>
       </div>
       
       {/* Bottom Progress Bar */}

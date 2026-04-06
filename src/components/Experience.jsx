@@ -73,7 +73,7 @@ const Experience = () => {
       <div className="timeline-wrap">
         <div className="timeline-line"></div>
         <div className="timeline-line-fill" ref={lineFillRef}></div>
-        
+
         {/* entry 1 */}
         <div className="timeline-entry">
           <div className="timeline-dot">
@@ -81,23 +81,22 @@ const Experience = () => {
           </div>
           <div className="tl-num">01</div>
           <div className="tl-body">
-            <h3 className="timeline-company">Samsung R&D</h3>
-            
+            <h3 className="timeline-company">Samsung R&D Institute</h3>
+
             <div className="tl-meta-row">
-              <span className="timeline-period">Dec 2025 - Present</span>
+              <span className="timeline-period">Nov 2025 - Present</span>
               <span className="tl-location-chip">Bengaluru, India</span>
             </div>
-            
+
             <span className="timeline-role">Research Intern</span>
-            
+
             <p className="timeline-desc">
-              Profiling where multi-core throughput degrades — thread-scheduling overhead, 
-              cache-coherence invalidation traffic, inter-core latency — using microbenchmarks 
-              that vary one variable at a time to separate architectural bottlenecks from 
-              workload-dependent ones.
+              Developed a low-latency CNN-based model to detect wake words and classify
+              emotions from short audio clips. Built an acoustic feature extraction pipeline
+              (MFCC/eGeMAPS) and optimized inference for real-time performance (&lt;100ms).
               <br /><br />
-              Results feed directly into compiler and runtime scheduling decisions; isolating the 
-              bottleneck type determines whether the fix belongs in chip design or the OS scheduler.
+              Evaluated model performance using F1-score and cross-corpus testing, improving
+              robustness and accuracy. Project: Emotion-Aware Wake-Word Recognition.
             </p>
           </div>
         </div>
@@ -110,15 +109,15 @@ const Experience = () => {
           <div className="exp-ach-line"></div>
         </div>
         <div className="exp-ach-grid">
-          
+
           <ElectricBorder borderRadius="24px" borderColor="#e15a40" glowColor="#e15a40" duration={3}>
             <div className="exp-ach-card">
               <div className="exp-ach-card-glow"></div>
-              <span className="exp-ach-badge">Jan 2025 - Dec 2025</span>
-              <h4 className="exp-ach-company">IEEE RIT Bangalore</h4>
-              <p className="timeline-role" style={{marginBottom: '16px'}}>Web Resources Executive</p>
+              <span className="exp-ach-badge">Dec 2024 - Nov 2025</span>
+              <h4 className="exp-ach-company">IEEE PES RIT Bangalore</h4>
+              <p className="timeline-role" style={{ marginBottom: '16px' }}>Vice Chair — Power & Energy Society</p>
               <p className="exp-ach-desc">
-                Manage web presence and publish technical content for 500+ members.
+                Led IEEE PES chapter's growth, organizing 5+ events, increasing event participation by 100%.
               </p>
             </div>
           </ElectricBorder>
@@ -126,11 +125,11 @@ const Experience = () => {
           <ElectricBorder borderRadius="24px" borderColor="#e15a40" glowColor="#e15a40" duration={3}>
             <div className="exp-ach-card">
               <div className="exp-ach-card-glow"></div>
-              <span className="exp-ach-badge">Dec 2025</span>
-              <h4 className="exp-ach-company">Top 12 Teams</h4>
-              <p className="timeline-role" style={{marginBottom: '16px'}}>Whackiest Hackathon '25, Coderit @ MSRIT</p>
+              <span className="exp-ach-badge">Dec 2024</span>
+              <h4 className="exp-ach-company">wHACKiest 2024</h4>
+              <p className="timeline-role" style={{ marginBottom: '16px' }}>Top 25/300 Teams</p>
               <p className="exp-ach-desc">
-                Placed in the top 12 out of 80+ teams; built and shipped a working solution within the time limit.
+                Delivered a high-impact solution within a 24-hour hackathon, focusing on scalability, efficient backend design, and seamless user experience.
               </p>
             </div>
           </ElectricBorder>

@@ -73,14 +73,14 @@ const About = () => {
             <div className="terminal-btn red"></div>
             <div className="terminal-btn yellow"></div>
             <div className="terminal-btn green"></div>
-            <span className="terminal-title">guest@utkarsh:~</span>
+            <span className="terminal-title">guest@aryan:~</span>
           </div>
           <div className="terminal-body">
             <p className="term-line"><span className="term-prompt">&gt;</span> whoami</p>
-            <p className="term-response">Utkarsh Dubey</p>
+            <p className="term-response">Aryan Bhardwaj</p>
 
             <p className="term-line mt"><span className="term-prompt">&gt;</span> sudo get_focus</p>
-            <p className="term-response">["Backend", "Cyber_Sec", "System_Design"]</p>
+            <p className="term-response">["Backend", "Machine Learning", "System_Design"]</p>
 
             <p className="term-line mt"><span className="term-prompt">&gt;</span> run --status</p>
             <p className="term-response animate-pulse">Compiling...<span className="term-cursor"></span></p>
@@ -88,26 +88,25 @@ const About = () => {
         </div>
         <div>
           <h2 className="about-main" ref={mainTextRef}>
-            CS undergrad focused on backend systems—API security, service architecture, and writing queries that actually work.
+            EEE undergrad focused on backend systems—API security, service architecture, and writing queries that actually work.
           </h2>
           <p className="about-desc">
-            Strong in Java and DSA; comfortable across the full stack. I bridge
-            the gap between rigorous software engineering and systems-level
-            thinking — from compiler scheduling algorithms to JWT-secured API
-            gateways.
+            I specialize in backend development, API design, and real-time machine learning systems.
+            My experience includes building CNN-based audio classification models with sub-100ms inference and developing full-stack applications using React, Node.js, and MongoDB.
+            I focus on performance optimization, scalability, and clean system architecture.
           </p>
           <p className="about-desc">
-            Currently pursuing B.E. in Computer Science & Engineering (Cyber
-            Security) at M.S. Ramaiah Institute of Technology, Bengaluru.
+            Currently pursuing B.E. in Electrical and Electronics Engineering at
+            Ramaiah Institute of Technology, Bengaluru.
           </p>
           <div className="about-facts">
             <div className="fact-item">
-              <span>9.12</span>
-              <p>GPA / 10.0</p>
+              <span>8.1</span>
+              <p>CGPA / 10.0</p>
             </div>
             <div className="fact-item">
-              <span>3+</span>
-              <p>Projects Shipped</p>
+              <span>400+</span>
+              <p>DSA Problems</p>
             </div>
             <div className="fact-item">
               <span>2027</span>

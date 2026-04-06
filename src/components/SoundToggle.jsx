@@ -1,28 +1,24 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef, useCallback } from "react";
 
 const SoundToggle = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
 
-  useEffect(() => {
-    // Initialize audio
-    audioRef.current = new Audio("/f1_theme.mp3");
-    audioRef.current.loop = true;
-    audioRef.current.volume = 0.4;
-
-    return () => {
-      if (audioRef.current) {
-        audioRef.current.pause();
-        audioRef.current = null;
-      }
-    };
+  const getAudio = useCallback(() => {
+    if (!audioRef.current) {
+      audioRef.current = new Audio("/f1_theme.mp3");
+      audioRef.current.loop = true;
+      audioRef.current.volume = 0.4;
+    }
+    return audioRef.current;
   }, []);
 
   const toggleSound = () => {
+    const audio = getAudio();
     if (isPlaying) {
-      audioRef.current.pause();
+      audio.pause();
     } else {
-      audioRef.current.play().catch(err => {
+      audio.play().catch(err => {
         console.error("Audio playback failed:", err);
       });
     }

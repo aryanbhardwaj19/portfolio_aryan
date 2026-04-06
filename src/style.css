@@ -186,7 +186,7 @@ a {
 /* ======= HERO ======= */
 .hero-section {
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   padding: 0 60px;
@@ -247,7 +247,7 @@ a {
   z-index: 2;
   max-width: 1400px;
   width: 100%;
-}
+  }
 .hero-tag {
   display: block;
   font-size: 0.85rem;
@@ -273,15 +273,15 @@ a {
 }
 .hero-accent { color: var(--accent); }
 .hero-sub {
-  margin-top: 36px;
+  margin-top: 20px;
   font-size: clamp(0.9rem, 1.5vw, 1.1rem);
   opacity: 0.6;
   max-width: 500px;
-  line-height: 1.7;
+  line-height: 1.4;
 }
 .hero-scroll-hint {
-  position: absolute;
-  bottom: 40px;
+  position: fixed;
+  bottom: 30px;
   left: 60px;
   display: flex;
   align-items: center;
@@ -878,8 +878,7 @@ a {
 /* ======= ACHIEVEMENTS (PREMIUM CARDS) ======= */
 .exp-achievements-block {
   margin-top: 80px;
-  padding-top: 100px;
-  border-top: 1px solid rgba(222, 219, 211, 0.08);
+    border-top: 1px solid rgba(222, 219, 211, 0.08);
 }
 .exp-achievements-label {
   display: flex;
