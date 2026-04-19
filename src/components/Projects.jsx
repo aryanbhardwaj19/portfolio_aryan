@@ -7,6 +7,18 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
+    title: "FoodiesForFoody",
+    meta: "Spring Boot, ReactJS, MongoDB, AWS S3",
+    desc: "FoodiesForFoody is a full-stack web application designed to manage food items and user interactions for a food delivery or restaurant management system. It provides an admin interface for managing food items and users, along with a backend API for handling data operations.",
+    link: "https://github.com/aryanbhardwaj19/FoodiesForFoody"
+  },
+  {
+    title: "FinRisk",
+    meta: "Python, LangChain, LangGraph, FAISS, Streamlit",
+    desc: "FinRisk is a Streamlit application for querying financial documents (PDF, CSV, TSV, XLS, XLSX) using retrieval-augmented generation.It ingests documents, builds a FAISS index from local sentence-transformer embeddings, and answers questions through a LangGraph pipeline with source citations.",
+    link: "https://financerisk.streamlit.app/"
+  },
+  {
     title: "TaskFlow",
     meta: "ReactJS · NodeJs · ExpressJS · MongoDB · Render · Vercel",
     desc: "Full-stack Kanban-based task management platform with JWT auth, drag-and-drop workflows, and TanStack Query for real-time sync.",
