@@ -91,9 +91,10 @@ const About = () => {
             EEE undergrad focused on backend systems—API security, service architecture, and writing queries that actually work.
           </h2>
           <p className="about-desc">
-            I specialize in backend development, API design, and real-time machine learning systems.
-            My experience includes building CNN-based audio classification models with sub-100ms inference and developing full-stack applications using React, Node.js, and MongoDB.
-            I focus on performance optimization, scalability, and clean system architecture.
+            I specialize in backend development, API design, and building scalable full-stack systems. 
+            I have developed production-ready applications using Node.js, Spring Boot, React, and MongoDB, including a task management platform and a food delivery system with secure JWT authentication, real-time features, and optimized performance, deployed on Vercel and Render. 
+            I also have hands-on experience in machine learning through my internship at Samsung, where I worked on CNN-based audio classification models with low-latency inference. Additionally, I have built AI-powered systems such as a multi-agent financial document analyzer using LangGraph and RAG pipelines for intelligent data retrieval and analysis.
+            I focus on clean system architecture, scalability, and integrating intelligent systems into real-world applications.
           </p>
           <p className="about-desc">
             Currently pursuing B.E. in Electrical and Electronics Engineering at
